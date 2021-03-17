@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #1ea1de;
 }
@@ -9,4 +13,11 @@ body {
 
 .footer-container {
     background-color: #f0e9ea;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 75px;
+    right: 30px;
+    display: none;
 }
